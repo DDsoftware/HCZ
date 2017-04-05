@@ -74,19 +74,11 @@ void loop()
   delay(1000);
   
   _mLeft();
-  delay(500);
+  delay(400);
 
   _mStop();
   delay(1000);
   
-  _mForward();
-  delay(2*1000);
-
-  _mStop();
-  delay(1000);
-  
-  _mLeft();
-  delay(500);
 }
 
 
